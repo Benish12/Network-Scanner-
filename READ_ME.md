@@ -6,17 +6,17 @@ Developed a Python-based Network Scanner using the Scapy packet manipulation fra
 
 This project demonstrates practical knowledge of network security, packet analysis, ARP communication, and cybersecurity automation. Instead of relying on existing network scanning tools, I built a custom scanner to understand how network discovery works at the packet level.
 
----
+https://github.com/user-attachments/assets/aaa7d409-79c3-4428-b0a9-7a899bd221aa
+
+
 
 # Project Objectives
 
 - Understand how network discovery tools operate.
-- Learn how ARP protocol communication works.
+- Learn how the ARP protocol works.
 - Create and analyze network packets using Python.
 - Automate device discovery within a local network.
 - Gain hands-on experience with cybersecurity scripting and network security concepts.
-
----
 
 # Features
 
@@ -29,8 +29,6 @@ This project demonstrates practical knowledge of network security, packet analys
 - Processes network responses to identify connected devices.
 - Supports user-defined target networks through command-line arguments.
 - Provides a lightweight network discovery solution.
-
----
 
 # How It Works
 
@@ -48,8 +46,6 @@ The program:
 
 This process allows the scanner to identify active hosts connected to a local network.
 
----
-
 ## Command-Line Argument Handling
 
 The project uses Python's `argparse` module to allow users to provide target network information directly through the Linux terminal.
@@ -62,8 +58,6 @@ python3 network_scanner.py -t 192.168.1.0/24
 
 This allows users to scan different network ranges without modifying the source code.
 
----
-
 # Tools & Technologies Used
 
 ## Python
@@ -73,8 +67,6 @@ This allows users to scan different network ranges without modifying the source 
 - Developed the complete network scanning application.
 - Automated packet creation, transmission, and response processing.
 - Implemented scanning logic and command-line functionality.
-
----
 
 ## Scapy
 
@@ -87,8 +79,6 @@ This allows users to scan different network ranges without modifying the source 
 
 Scapy provided hands-on experience with packet-level networking and allowed the project to be built without relying on pre-existing scanning tools.
 
----
-
 ## Kali Linux
 
 **How it was used:**
@@ -96,8 +86,6 @@ Scapy provided hands-on experience with packet-level networking and allowed the 
 - Developed and tested the project in a cybersecurity-focused Linux environment.
 - Executed the scanner through the command line.
 - Tested network discovery functionality in a controlled environment.
-
----
 
 ## VirtualBox
 
@@ -107,8 +95,6 @@ Scapy provided hands-on experience with packet-level networking and allowed the 
 - Built a controlled network environment.
 - Tested scanning functionality safely without affecting external networks.
 
----
-
 ## Git & GitHub
 
 **How it was used:**
@@ -116,8 +102,6 @@ Scapy provided hands-on experience with packet-level networking and allowed the 
 - Managed source code versions.
 - Tracked project development.
 - Stored and documented the project for portfolio purposes.
-
----
 
 # Installation & Setup
 
@@ -132,9 +116,6 @@ Install Scapy:
 ```bash
 pip install scapy
 ```
-
----
-
 # Running the Program
 
 Run the scanner using:
@@ -151,8 +132,6 @@ sudo python3 network_scanner.py -t 192.168.1.0/24
 
 Root privileges may be required because the program creates and sends raw network packets.
 
----
-
 # Example Output
 
 Example:
@@ -163,8 +142,6 @@ IP Address          MAC Address
 192.168.1.1         AA:BB:CC:DD:EE:FF
 192.168.1.5         11:22:33:44:55:66
 ```
-
----
 
 # Project Outcome
 
@@ -181,8 +158,6 @@ Through this project, I gained practical experience with:
 
 This project strengthened my understanding of how network reconnaissance tools operate and provided a foundation for developing more advanced cybersecurity tools such as vulnerability scanners, network monitoring systems, and security assessment utilities.
 
----
-
 # Skills Demonstrated
 
 - Python Programming
@@ -194,8 +169,6 @@ This project strengthened my understanding of how network reconnaissance tools o
 - Cybersecurity Automation
 - Git/GitHub
 - Command-Line Tools
-
----
 
 # Ethical Disclaimer
 
